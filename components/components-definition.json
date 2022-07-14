@@ -604,7 +604,7 @@
       "icon": "icons/components/icon_01_titulo_cap.svg",
       "label": "Número do Capítulo",
       "properties": [
-        "style"
+        "style_anos"
       ],
       "directiveOptions": {
         "text": {
@@ -827,27 +827,19 @@
       }
     },
     {
-      "name": "css_02_texto_destaque",
+      "name": "css_06_box_destaque",
       "icon": "icons/components/icon_02_texto_destaque.svg",
-      "label": "02 Texto Destaque 1",
+      "label": "06 Box Destaque",
       "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
+        "style_anos"
+      ]
+  
     },
     {
       "name": "css_02_texto_geral",
       "icon": "icons/components/icon_02_texto_geral1.svg",
       "label": "02 Texto Geral",
       "properties": [
-        "style",
         "text-align",
         "letter-spacing",
         "line-height"
@@ -3631,7 +3623,6 @@
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
         "css_02_texto_definicao",
-        "css_02_texto_destaque",
         "css_02_texto_geral1",
         "css_02_texto_geral2",
         "css_02_texto_geral3",
@@ -3700,6 +3691,7 @@
       "label": "06 boxes",
       "name": "06_boxes",
       "components": [
+        "css_06_box_destaque",
         "css_06_boxe_bullet",
         "css_06_boxe_exercicio_continuacao",
         "css_06_boxe_exercicio",
@@ -4124,6 +4116,7 @@
             },
             "value": "fisica"
           },
+          
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -4258,6 +4251,47 @@
               }
             },
             "value": "sociologia"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
+
+    {
+      "name": "style_anos",
+      "label": "Escolha o ano",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "Cores 2 anos"
+            },
+            "value": "cores_2_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 3 anos"
+            },
+            "value": "cores_3_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 4 anos"
+            },
+            "value": "cores_4_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 5 anos"
+            },
+            "value": "cores_5_anos"
           }
         ]
       },
