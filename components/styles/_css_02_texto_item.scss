@@ -1,9 +1,10 @@
 .css_02_texto_item {
   display: block;
   color: #000000;
-  font-family: 'Noticia Text';
-  font-weight: 400;
+  font-family: $fontPrincipal;
+  font-weight: 300;
   line-height: 1.5em;
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 8px;
+  text-transform: uppercase;
 }

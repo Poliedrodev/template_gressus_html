@@ -1,13 +1,14 @@
 .css_01_titulo4 {
 
   /* Características do texto */
-  font-family: $fontName;
-  font-weight: 800;
-  font-size: 20px;
-  color: $preto;
+  font-family: $fontPrincipal;
+  font-weight: 600;
+  font-size:1.5rem;
+  color: #71706F;
 
   /* Características do componente */
   display: block;
+  position: relative;
   margin-top: 15px;
   padding: 0 68px;
   margin-bottom: 0px;

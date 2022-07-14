@@ -1,9 +1,10 @@
 .css_02_texto_geral3 {
   display: block;
   color: $textColor;
-  font-family: 'Noticia Text';
+  font-family: $fontPrincipal;
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
   margin-top: 8px;
+  text-transform: uppercase;
 }
