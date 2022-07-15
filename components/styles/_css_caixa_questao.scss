@@ -1,0 +1,125 @@
+.css_caixa_questao {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: $dois_cor1_B;
+  border-radius: 8px;
+  border: 1px solid $dois_cor1_A;
+
+  display: flex;
+  justify-content: flex-start;
+
+  .wrap_icons_css_caixa_questao {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    height: 40px;
+
+    .icon_caixa_questao {
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      align-items: center;
+    }
+  }
+ 
+
+  &.cores_2_anos {
+    border-color: $dois_cor1_A;
+    background-color: $dois_cor1_B;
+
+    & .um_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_exe_nos.svg");
+    }
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_exe_corpo.svg");
+    }
+
+    & .tres_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_exe_formas.svg");
+    }
+
+    & .quatro_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_exe_fala.svg");
+    }
+
+    & .cinco_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_exe_tempo.svg");
+    }
+  }
+
+  &.cores_3_anos {
+    border-color: $tres_cor1_A;
+    background-color: $tres_cor1_B;
+
+    & .um_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_exe_nos.svg");
+    }
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_exe_corpo.svg");
+    }
+
+    & .tres_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_exe_formas.svg");
+    }
+
+    & .quatro_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_exe_fala.svg");
+    }
+
+    & .cinco_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_exe_tempo.svg");
+    }
+  }
+
+  &.cores_4_anos {
+    border-color: $quatro_cor1_A;
+    background-color: $quatro_cor1_B;
+
+    & .um_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_exe_nos.svg");
+    }
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_exe_corpo.svg");
+    }
+
+    & .tres_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_exe_formas.svg");
+    }
+
+    & .quatro_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_exe_fala.svg");
+    }
+
+    & .cinco_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_exe_tempo.svg");
+    }
+  }
+
+  &.cores_5_anos {
+    border-color: $cinco_cor1_A;
+    background-color: $cinco_cor1_B;
+
+    & .um_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_exe_nos.svg");
+    }
+
+    & .dois_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_exe_corpo.svg");
+    }
+
+    & .tres_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_exe_formas.svg");
+    }
+
+    & .quatro_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_exe_fala.svg");
+    }
+
+    & .cinco_css_caixa_questao {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_exe_tempo.svg");
+    }
+  }
+}

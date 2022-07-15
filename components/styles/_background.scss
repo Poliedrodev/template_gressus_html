@@ -1,89 +1,109 @@
 .body-book {
-  &.artes {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_padrao.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  // background padrao
+  &._background_padrao.cores_2_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_padrao.svg");
   }
 
-  &.biologia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-
+  &._background_padrao.cores_3_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_padrao.svg");
   }
 
-  &.filosofia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIL.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-
+  &._background_padrao.cores_4_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_background_padrao.svg");
   }
 
-  &.fisica {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIS.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  &._background_padrao.cores_5_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_padrao.svg");
   }
 
-  &.geografia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_GEO.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  // background artista
+  &._background_artista.cores_2_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_artista.svg");
   }
 
-  &.historia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_HIS.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  &._background_artista.cores_3_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_artista.svg");
   }
 
-  &.lingua_inglesa {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ING.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  &._background_artista.cores_4_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_background_artista.svg");
   }
 
-  &.lingua_portuguesa {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_POR.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  &._background_artista.cores_5_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_artista.svg");
+  }
+  
+  // background_comecar
+  &._background_comecar.cores_2_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_comecar.svg");
   }
 
-  &.matematica {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_MAT.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  &._background_comecar.cores_3_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_comecar.svg");
   }
 
-  &.producao_de_texto {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_PXT.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  &._background_comecar.cores_4_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_background_comecar.svg");
   }
 
-  &.quimica {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  &._background_comecar.cores_5_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_comecar.svg");
   }
 
-  &.sociologia {
-    background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_SOC.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+  // background_terminar
+  &._background_terminar.cores_2_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_terminar.svg");
+  }
 
+  &._background_terminar.cores_3_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_terminar.svg");
+  }
+
+  &._background_terminar.cores_4_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_background_terminar.svg");
+  }
+
+  &._background_terminar.cores_5_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_terminar.svg");
+  }
+
+  // background_terminar
+  &._background_casa.cores_2_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_casa.svg");
+  }
+
+  &._background_casa.cores_3_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_casa.svg");
+  }
+
+  &._background_casa.cores_4_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_background_casa.svg");
+  }
+
+  &._background_casa.cores_5_anos {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_casa.svg");
+  }
+
+  &.edit-mode {
+    [doc-container] {
+      padding-bottom: 24px !important;
+      border-bottom: 3px solid #cecece !important;
+    }
+
+    [doc-container]:empty {
+      padding-bottom: 0 !important;
+      border-bottom: 0 !important;
+    }
+
+    [doc-editable] .empty-editable {
+      background-color: orange;
+      min-width: 5px;
+      min-height: 3px;
+    }
   }
 
 }

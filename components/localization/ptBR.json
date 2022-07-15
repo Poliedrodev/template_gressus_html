@@ -82,5 +82,13 @@
   "EXERCICE_TEXT_ALTERNATIVA": "Digite o texto da alternativa",
   "EXERCICE_TITLE_ALTERNATIVA_ASSINALAR": "Digite o título do exercício alternativa assinalar",
   "EXERCICE_TITLE_ITEM": "Digite o título do exercício item",
-  "EXERCICE_TEXT_ITEM": "Digite o texto do item"
+  "EXERCICE_TEXT_ITEM": "Digite o texto do item",
+  "COMPONENT_CONTAINER_EXERCICIO_LABEL": "Container exercício",
+  "PROPERTY_VOCE_E_LABEL": "Você é...",
+  "PROPERTY_IMAGE_HEIGHT_LABEL": "Editar altura da imagem",
+  "COMPONENT_TEXTO_BULLET": "Digite o Texto Bullet",
+  "COMPONENT_TEXTO_CITADO": "Digite o Texto Citado",
+  "FONTE_MAPA": "Digite a fonte do mapa",
+  "SUBTITLE_MAPA": "Digite a legenda do mapa"
+
 }

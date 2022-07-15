@@ -245,8 +245,8 @@ h3 {
 @import url(https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Condensed:wght@300;400;700&display=swap);
 
 /* Article view style */
-html,
-body {
+.body-bok,
+.body {
   padding: 0;
   margin: 0;
   font: $defaultFontSize $fontPrincipal;
@@ -263,7 +263,7 @@ body {
   }
 }
 
-body {
+.body {
   max-width: $max-width;
   padding: 0 5px;
   margin-left: auto;
@@ -318,7 +318,7 @@ span[data-text-edit-color] {
 .hero-js {
   height: 100%;
 
-  body {
+  .body {
     height: 100%;
   }
 
@@ -363,7 +363,7 @@ span[data-text-edit-color] {
     ._hero-content-wrapper {
       background-color: $bodyBackground;
 
-      ._hero-content-body {
+      ._hero-content-.body {
         max-width: $max-width;
         padding: 0 5px;
         margin-left: auto;
@@ -380,7 +380,7 @@ span[data-text-edit-color] {
   }
 
   &.hero-js-android {
-    body {
+    .body {
       max-width: none;
     }
 

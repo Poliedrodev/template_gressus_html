@@ -7,47 +7,24 @@
   flex-direction: column;
   width: 100%;
 
-  ._image{
-    width: 100%;
+  ._image {
+    max-width: 100%;
   }
 
-  .slider-subtitle {
-    position: relative;
-    margin-top: 8px;
+  &._image2_titulo{
+    margin: 0 auto !important;
   }
 
-  .slider-subtitle::before {
-    content: "";
-    height: 2px;
-    width: 26%;
-    position: absolute;
-    left: 0;
-    top: -4px;
+
+  &._fit_content ._image{
+    width: fit-content;
   }
 
-  &.artes {
-    .slider-subtitle::before {
-      background-color: $seg_lin_cor1;
-    }
+  &._fit_content_margin_auto ._image{
+    width: fit-content;
+    margin: auto;
   }
 
-  &.lingua_portuguesa {
-    .slider-subtitle::before {
-      background-color: $seg_lin_cor1;
-    }
-  }
-
-  &.lingua_inglesa {
-    .slider-subtitle::before {
-      background-color: $seg_lin_cor1;
-    }
-  }
-
-  &.matematica {
-    .slider-subtitle::before {
-      background-color: $seg_mat_cor1;
-    }
-  }
 
   &._left {
     margin-left: 0px;

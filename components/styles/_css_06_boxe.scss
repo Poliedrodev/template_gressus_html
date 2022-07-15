@@ -1,0 +1,345 @@
+.css_06_boxe {
+  width: 100%;
+  margin-top: 16px;
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $dois_cor1_A;
+  border-radius: 8px;
+
+  // header
+  .header_css_06_boxe {
+    display: flex;
+    height: 56px;
+    position: relative;
+    border-bottom: 1px solid $dois_cor1_A;
+
+    .background_icon_css_06_boxe {
+      border-radius: 8px 0 0 0;
+      width: 59px;
+      height: 56px;
+      background-color: $dois_cor3_A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      position: absolute;
+      top: -1px;
+      left: -1px;
+
+      border-top: 1px solid $dois_cor1_A;
+      border-left: 1px solid $dois_cor1_A;
+      border-bottom: 1px solid $dois_cor1_A;
+    }
+
+    .icon_css_06_boxe {
+      width: 36px;
+      height: 36px;
+      margin: auto;
+
+      background-repeat: no-repeat;
+      align-items: center;
+    }
+  }
+
+  // title
+  .background_css_06_boxe {
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+
+    .title_css_06_boxe {
+      text-transform: uppercase;
+      color: $dois_cor1_A;
+      font-family: $fontPrincipal;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28px;
+      text-align: left;
+    }
+  }
+
+
+  // main
+  .main_css_06_boxe {
+    padding: 16px;
+    background-color: #FFF;
+
+    &[doc-container]:empty {
+      min-height: 100px;
+      background-color: #fff0f0;
+    }
+  }
+
+  // footer 
+  .footer_css_06_boxe {
+    padding: 16px;
+    padding-top: 0;
+
+    .legenda_css_06_boxe {
+      font-family: $fontPrincipal;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 28px;
+      text-align: left;
+    }
+  }
+
+  &.cores_2_anos {
+    border: 1px solid $dois_cor1_A;
+
+    // header
+    .header_css_06_boxe {
+      border-bottom: 1px solid $dois_cor1_A;
+
+      .background_icon_css_06_boxe {
+        background-color: $dois_cor3_A;
+        border-top: 1px solid $dois_cor1_A;
+        border-left: 1px solid $dois_cor1_A;
+        border-bottom: 1px solid $dois_cor1_A;
+      }
+
+     
+    }
+
+    // title
+    .background_css_06_boxe {
+      .title_css_06_boxe {
+        color: $dois_cor1_A;
+      }
+    }
+  }
+
+  &.cores_3_anos {
+    border: 1px solid $tres_cor1_A;
+
+    // header
+    .header_css_06_boxe {
+      border-bottom: 1px solid $tres_cor1_A;
+
+      .background_icon_css_06_boxe {
+        background-color: $tres_cor3_A;
+        border-top: 1px solid $tres_cor1_A;
+        border-left: 1px solid $tres_cor1_A;
+        border-bottom: 1px solid $tres_cor1_A;
+      }
+
+      
+    }
+
+    // title
+    .background_css_06_boxe {
+      .title_css_06_boxe {
+        color: $tres_cor1_A;
+      }
+    }
+  }
+
+  &.cores_4_anos {
+    border: 1px solid $quatro_cor1_A;
+
+    // header
+    .header_css_06_boxe {
+      border-bottom: 1px solid $quatro_cor1_A;
+
+      .background_icon_css_06_boxe {
+        background-color: $quatro_cor3_A;
+        border-top: 1px solid $quatro_cor1_A;
+        border-left: 1px solid $quatro_cor1_A;
+        border-bottom: 1px solid $quatro_cor1_A;
+      }
+
+     
+    }
+
+    // title
+    .background_css_06_boxe {
+      .title_css_06_boxe {
+        color: $quatro_cor1_A;
+      }
+    }
+  }
+
+  &.cores_5_anos {
+    border: 1px solid $cinco_cor1_A;
+
+    // header
+    .header_css_06_boxe {
+      border-bottom: 1px solid $cinco_cor1_A;
+
+      .background_icon_css_06_boxe {
+        background-color: $cinco_cor3_A;
+        border-top: 1px solid $cinco_cor1_A;
+        border-left: 1px solid $cinco_cor1_A;
+        border-bottom: 1px solid $cinco_cor1_A;
+      }
+
+     
+    }
+
+    // title
+    .background_css_06_boxe {
+      .title_css_06_boxe {
+        color: $cinco_cor1_A;
+      }
+    }
+  }
+
+  // conheça
+  &._boxe_conheca.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_conheca.svg");
+  }
+
+  &._boxe_conheca.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_conheca.svg");
+  }
+
+  &._boxe_conheca.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_conheca.svg");
+  }
+
+  &._boxe_conheca.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_conheca.svg");
+  }
+
+  // Pesquisa
+  &._hora_de_pesquisar.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_pesquisa.svg");
+  }
+
+  &._hora_de_pesquisar.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_pesquisa.svg");
+  }
+
+  &._hora_de_pesquisar.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_pesquisa.svg");
+  }
+
+  &._hora_de_pesquisar.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_pesquisa.svg");
+  }
+
+
+  // faltando ícone 1
+  // família e escola
+  &._familia_e_escola.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_pesquisa.svg");
+  }
+
+  &._familia_e_escola.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_pesquisa.svg");
+  }
+
+  &._familia_e_escola.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_pesquisa.svg");
+  }
+
+  &._familia_e_escola.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_pesquisa.svg");
+  }
+
+  // faltando ícone 2
+  // comunidade em ação!
+  &._comunidade_em_acao.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_pesquisa.svg");
+  }
+
+  &._comunidade_em_acao.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_pesquisa.svg");
+  }
+
+  &._comunidade_em_acao.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_pesquisa.svg");
+  }
+
+  &._comunidade_em_acao.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_pesquisa.svg");
+  }
+
+  
+  // hora da história
+  &._hora_da_historia.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_historia.svg");
+  }
+
+  &._hora_da_historia.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_historia.svg");
+  }
+
+  &._hora_da_historia.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_historia.svg");
+  }
+
+  &._hora_da_historia.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_historia.svg");
+  }
+
+  // faltando ícone 3
+  // palavras estáveis
+  &._palavras_estaveis.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_historia.svg");
+  }
+
+  &._palavras_estaveis.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_historia.svg");
+  }
+
+  &._palavras_estaveis.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_historia.svg");
+  }
+
+  &._palavras_estaveis.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_historia.svg");
+  }
+
+  // as palavras e o texto 
+  &._as_palavras_e_o_texto.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_texto.svg");
+  }
+
+  &._as_palavras_e_o_texto.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_texto.svg");
+  }
+
+  &._as_palavras_e_o_texto.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_texto.svg");
+  }
+
+  &._as_palavras_e_o_texto.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_texto.svg");
+  }
+
+  // mão NA MASSA 
+  &._mao_NA_MASSA.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_mao.svg");
+  }
+
+  &._mao_NA_MASSA.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_mao.svg");
+  }
+
+  &._mao_NA_MASSA.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_mao.svg");
+  }
+
+  &._mao_NA_MASSA.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_mao.svg");
+  }
+}
+@media only screen and (max-width: $phone-max-width) {
+  .css_06_boxe .background_css_06_boxe .title_css_06_boxe {
+    font-size: 14px;
+  }
+  .css_06_boxe .background_css_06_boxe {
+    padding-left: 65px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .css_06_boxe .header_css_06_boxe .background_icon_css_06_boxe{
+    width: 48px;
+  }
+  .css_06_boxe .background_css_06_boxe {
+    padding-left: 53px;
+  }
+}

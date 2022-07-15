@@ -5,6 +5,31 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "css_caixa_questao",
+      "icon": "icons/components/container.svg",
+      "label": "Caixa Questão",
+      "properties": [
+        "style_anos"
+      ]
+    },
+    {
+      "name": "css_06_boxe",
+      "icon": "icons/components/container.svg",
+      "label": "Boxe 06 Ícone",
+      "properties": [
+        "style_boxe",
+        "style_anos"
+      ],
+      "directiveOptions":{
+        "title":{
+          "stripStylingOnPaste": true
+        },
+        "text":{
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "audio",
       "icon": "icons/components/icon_00_arte.svg",
       "label": "Componente Áudio",
@@ -2689,17 +2714,14 @@
     {
       "name": "image2",
       "icon": "icons/components/image.svg",
-      "label": {
-        "key": "COMPONENT_IMAGE_LABEL"
-      },
+      "label": "Image Gressus",
       "properties": [
+        "style_image_fit_content",
+        "width",
         "position",
         "style",
         "style_image",
-        "inside-caption",
-        "text-align",
-        "letter-spacing",
-        "line-height"
+        "inside-caption"
       ],
       "directiveOptions": {
         "caption": {
@@ -3274,7 +3296,9 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
-        "style_lumen_mais"
+        "edit-mode",
+        "secao_background",
+        "style_anos"
       ]
     },
     {
@@ -3700,6 +3724,8 @@
       "label": "06 boxes",
       "name": "06_boxes",
       "components": [
+        "css_caixa_questao",
+        "css_06_boxe",
         "css_06_boxe_bullet",
         "css_06_boxe_exercicio_continuacao",
         "css_06_boxe_exercicio",
@@ -3825,7 +3851,6 @@
       },
       "name": "media",
       "components": [
-        "image",
         "image2",
         "embed",
         "product",
@@ -3854,6 +3879,48 @@
     }
   ],
   "componentProperties": [
+    {
+      "name": "style_image_fit_content",
+      "label": "Ajustar tamanho da imagem",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real"
+              }
+            },
+            "value": "_fit_content"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real ao meio"
+              }
+            },
+            "value": "_fit_content_margin_auto"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Imagem Título (remove as margens)"
+              }
+            },
+            "value": "_image2_titulo"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
     {
       "name": "position",
       "label": {
@@ -4258,6 +4325,158 @@
               }
             },
             "value": "sociologia"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_anos",
+      "label": "Escolha o ano",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "Cores 2 anos"
+            },
+            "value": "cores_2_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 3 anos"
+            },
+            "value": "cores_3_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 4 anos"
+            },
+            "value": "cores_4_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 5 anos"
+            },
+            "value": "cores_5_anos"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_boxe",
+      "label": "Escolha a boxe",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "conheça…"
+            },
+            "value": "_boxe_conheca"
+          },
+          {
+            "caption": {
+              "key": "hora de pesquisar"
+            },
+            "value": "_hora_de_pesquisar"
+          },
+          {
+            "caption": {
+              "key": "família e escola"
+            },
+            "value": "_familia_eescola"
+          },
+          {
+            "caption": {
+              "key": "comunidade em ação!"
+            },
+            "value": "_comunidade_em_acao"
+          },
+          {
+            "caption": {
+              "key": "hora da história"
+            },
+            "value": "_hora_da_historia"
+          },
+          {
+            "caption": {
+              "key": "palavras estáveis"
+            },
+            "value": "_palavras_estaveis"
+          },
+          {
+            "caption": {
+              "key": "as palavras e o texto"
+            },
+            "value": "_as_palavras_e_o_texto"
+          },
+          {
+            "caption": {
+              "key": "mão NA MASSA"
+            },
+            "value": "_mao_NA_MASSA"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "edit-mode",
+      "label": "Ative para ver o modo de edição com barras",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Desativado"
+          },
+          {
+            "caption": "Ativado",
+            "value": "edit-mode"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "secao_background",
+      "label": "Ative para ver o modo de edição com barras",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Padrão"
+          },
+          {
+            "caption": "background artista",
+            "value": "_background_artista"
+          },
+          {
+            "caption": "background comecar",
+            "value": "_background_comecar"
+          },
+          {
+            "caption": "background padrao",
+            "value": "_background_padrao"
+          },
+          {
+            "caption": "background terminar",
+            "value": "_background_terminar"
+          },
+          {
+            "caption": "background casa",
+            "value": "_background_casa"
           }
         ]
       },
