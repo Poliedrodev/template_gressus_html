@@ -629,7 +629,7 @@
       "icon": "icons/components/icon_01_titulo_cap.svg",
       "label": "Número do Capítulo",
       "properties": [
-        "style"
+        "style_anos"
       ],
       "directiveOptions": {
         "text": {
@@ -672,9 +672,8 @@
     {
       "name": "css_01_titulo1",
       "icon": "icons/components/icon_01_titulo1.svg",
-      "label": "01 Título 1",
+      "label": "01 Título 1 Gressus",
       "properties": [
-        "style",
         "text-align",
         "letter-spacing",
         "line-height"
@@ -852,27 +851,19 @@
       }
     },
     {
-      "name": "css_02_texto_destaque",
+      "name": "css_06_box_destaque",
       "icon": "icons/components/icon_02_texto_destaque.svg",
-      "label": "02 Texto Destaque 1",
+      "label": "06 Box Destaque",
       "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
+        "style_anos"
+      ]
+  
     },
     {
       "name": "css_02_texto_geral",
       "icon": "icons/components/icon_02_texto_geral1.svg",
       "label": "02 Texto Geral",
       "properties": [
-        "style",
         "text-align",
         "letter-spacing",
         "line-height"
@@ -2389,6 +2380,23 @@
       }
     },
     {
+      "name": "css_secoes_gressus",
+      "icon": "icons/components/icon_02_texto_destaque.svg",
+      "label": "Seções Gressus",
+      "properties": [
+        "style_anos",
+        "style_gressus_secoes",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "container_faixa",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -3591,18 +3599,8 @@
       "label": "Containers",
       "name": "containers",
       "components": [
-        "background",
-        "secao_para_aprofundar",
-        "secao_para_consolidar",
-        "secao_produzir_e_compartilhar",
-        "secao_topo_para_aprofundar",
-        "secao_topo_para_consolidar",
-        "secao_topo_produzir_e_compartilhar",
-        "secao_topo_quiz",
-        "container_read_more",
-        "container_fica_a_dica",
-        "container_repertorio_cultural",
-        "container_saiba_mais"
+        "background"
+    
       ]
     },
     {
@@ -3639,10 +3637,7 @@
         "css_01_titulo_cap_num",
         "css_01_titulo_cap",
         "css_01_titulo_unid",
-        "css_01_titulo1",
-        "css_01_titulo2",
-        "css_01_titulo3",
-        "css_01_titulo4"
+        "css_01_titulo1"
       ]
     },
     {
@@ -3655,12 +3650,9 @@
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
         "css_02_texto_definicao",
-        "css_02_texto_destaque",
         "css_02_texto_geral1",
         "css_02_texto_geral2",
         "css_02_texto_geral3",
-        "css_02_texto_glossario_titulo",
-        "css_02_texto_glossario",
         "css_02_texto_item",
         "css_02_texto_manuscrito",
         "css_02_texto_vocabulario"
@@ -3680,8 +3672,6 @@
         "css_03_exercicio_bullet",
         "css_03_exercicio_citado_titulo",
         "css_03_exercicio_citado",
-        "css_03_exercicio_item_vf",
-        "css_03_exercicio_resolvido_bullet",
         "css_03_exercicio_resolvido_item",
         "css_03_exercicio_resolvido",
         "css_03_exercicio_texto"
@@ -3713,11 +3703,8 @@
         "css_05_grafico_texto",
         "css_05_grafico_titulo",
         "css_05_legenda_unidade",
-        "css_05_legenda",
-        "css_05_linha_exercicio",
-        "css_05_mapa_titulo",
-        "css_05_nota_rodape",
-        "container_mapa"
+        "css_05_legenda"
+        
       ]
     },
     {
@@ -3726,6 +3713,7 @@
       "components": [
         "css_caixa_questao",
         "css_06_boxe",
+        "css_06_box_destaque",
         "css_06_boxe_bullet",
         "css_06_boxe_exercicio_continuacao",
         "css_06_boxe_exercicio",
@@ -3737,27 +3725,14 @@
         "css_06_boxe_titulo_texto_citado",
         "css_06_boxe_titulo1",
         "css_06_boxe_titulo2",
-        "css_06_boxe_titulo3",
-        "css_06_boxe_em_arte",
-        "css_06_boxe_em_biologia",
-        "css_06_boxe_em_filosofia",
-        "css_06_boxe_em_fisica",
-        "css_06_boxe_em_geografia",
-        "css_06_boxe_em_historia",
-        "css_06_boxe_em_lingua_inglesa",
-        "css_06_boxe_em_lingua_portuguesa",
-        "css_06_boxe_em_literatura",
-        "css_06_boxe_em_matematica",
-        "css_06_boxe_em_producao_de_texto",
-        "css_06_boxe_em_quimica",
-        "css_06_boxe_em_sociologia",
-        "css_06_boxe_watch_out"
+        "css_06_boxe_titulo3"
       ]
     },
     {
       "label": "07 secoes",
       "name": "07_secoes",
       "components": [
+        "css_secoes_gressus",
         "css_07_secao_exercicio_alternativa",
         "css_07_secao_exercicio_bullet",
         "css_07_secao_exercicio_continuacao",
@@ -4191,6 +4166,7 @@
             },
             "value": "fisica"
           },
+          
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -4325,6 +4301,87 @@
               }
             },
             "value": "sociologia"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
+
+    {
+      "name": "style_anos",
+      "label": "Escolha o ano",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "Cores 2 anos"
+            },
+            "value": "cores_2_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 3 anos"
+            },
+            "value": "cores_3_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 4 anos"
+            },
+            "value": "cores_4_anos"
+          },
+          {
+            "caption": {
+              "key": "Cores 5 anos"
+            },
+            "value": "cores_5_anos"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
+    {
+      "name": "style_gressus_secoes",
+      "label": "Escolha o a seção",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "Para Começar"
+            },
+            "value": "comecar"
+          },
+          {
+            "caption": {
+              "key": "Sou artista"
+            },
+            "value": "artista"
+          },
+          {
+            "caption": {
+              "key": "Para Terminar"
+            },
+            "value": "terminar"
+          },
+          {
+            "caption": {
+              "key": "Para Casa"
+            },
+            "value": "casa"
           }
         ]
       },

@@ -1,0 +1,37 @@
+.css_06_box_destaque {
+  font-family: $fontPrincipal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: $textColor !important;
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #eeeeee;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: 1px solid;
+
+  &.cores_2_anos {
+    border-color:   $dois_cor1_A;
+    background-color: $dois_cor1_B;
+  }
+
+  &.cores_3_anos {
+    border-color:   $tres_cor1_A;
+    background-color: $tres_cor1_B;
+  }
+
+  &.cores_4_anos {
+    border-color:  $quatro_cor1_A;
+    background-color: $quatro_cor1_B;
+  }
+
+  &.cores_5_anos {
+    border-color:$cinco_cor1_A;
+    background-color: $cinco_cor1_B;
+  }
+
+  & .css_06_boxe_destaque:first-child{
+    margin-top: 0 !important;
+  }
+}
