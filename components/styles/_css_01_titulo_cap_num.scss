@@ -123,7 +123,9 @@
 }
 
 @media only screen and (max-width: $phone-max-width) {
-
+  .background_css_01_titulo_cap_num_v2{
+    padding: 0 30px;
+  }
   .css_01_titulo_cap_num {
 
     .content_number_titulo_cap_num_v2 .cap_titulo_cap_num_v2 {
@@ -138,12 +140,13 @@
     }
 
     .content_titulo_cap_num_v2 .title_titulo_cap_num_v2 {
-      font-size: 30px;
+      font-size: 28px;
     }
   }
   
 }
 @media only screen and (min-width: $phone-max-width) and (max-width: 769px){
+  
   .css_01_titulo_cap_num {
 
     .content_number_titulo_cap_num_v2 .cap_titulo_cap_num_v2 {

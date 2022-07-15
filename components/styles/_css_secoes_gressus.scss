@@ -1,0 +1,391 @@
+.secoes_gressus {
+  margin: 0 !important;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  color: #FFFFFF;
+  font-weight: 700;
+
+
+  .background_css_secoes_primeiro {
+    width: 68px;
+    background-color: $dois_cor1_A;
+  }
+
+  .content_icon_secoes_gressus {
+    width: 68px;
+    background-color: $dois_cor3_B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    // icon
+    .icon_gressus_secoes {
+      background-image: url("https://rockeseat-origin-do-while2021.vercel.app/assets/icons/Gressus_svg/Gressus2_svg/02_secao_artista.svg");
+      width: 40px;
+      height: 40px;
+      margin-top: 20px;
+      background-repeat: no-repeat;
+    }
+  }
+
+
+  // title
+  .content_titulo_secoes_gressus {
+    width: 100%;
+    background-color: $dois_cor3_A;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+
+
+    .title_titulo_secoes_gressus {
+      font-family: $fontPrincipal;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 36px;
+    }
+  }
+
+  &.artista {
+    &.cores_2_anos {
+
+      .background_css_secoes_primeiro {
+        background-color: $dois_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $dois_cor3_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/02_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $dois_cor3_A;
+      }
+    }
+
+    &.cores_3_anos {
+      .background_css_secoes_primeiro {
+        background-color: $tres_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $tres_cor3_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/03_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $tres_cor3_A;
+      }
+
+    }
+
+    &.cores_4_anos {
+      .background_css_secoes_primeiro {
+        background-color: $quatro_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $quatro_cor3_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/04_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $quatro_cor3_A;
+      }
+
+    }
+
+    &.cores_5_anos {
+      .background_css_secoes_primeiro {
+        background-color: $cinco_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $cinco_cor3_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/05_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $cinco_cor3_A;
+      }
+
+    }
+  }
+
+  &.comecar {
+    &.cores_2_anos {
+
+      .background_css_secoes_primeiro {
+        background-color: $dois_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $dois_cor2_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/02_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $dois_cor2_A;
+      }
+    }
+
+    &.cores_3_anos {
+      .background_css_secoes_primeiro {
+        background-color: $tres_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $tres_cor2_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/03_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $tres_cor2_A;
+      }
+
+    }
+
+    &.cores_4_anos {
+      .background_css_secoes_primeiro {
+        background-color: $quatro_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $quatro_cor2_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/04_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $quatro_cor2_A;
+      }
+
+    }
+
+    &.cores_5_anos {
+      .background_css_secoes_primeiro {
+        background-color: $cinco_cor1_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $cinco_cor2_B;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/05_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $cinco_cor2_A;
+      }
+
+    }
+  }
+
+  &.terminar {
+    &.cores_2_anos {
+
+      .background_css_secoes_primeiro {
+        background-color: $dois_cor3_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $dois_cor2_A;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/02_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $dois_cor1_A;
+      }
+    }
+
+    &.cores_3_anos {
+      .background_css_secoes_primeiro {
+        background-color: $tres_cor3_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $tres_cor2_A;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/03_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $tres_cor1_A;
+      }
+
+    }
+
+    &.cores_4_anos {
+      .background_css_secoes_primeiro {
+        background-color: $quatro_cor3_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $quatro_cor2_A;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/04_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $quatro_cor3_A;
+      }
+
+    }
+
+
+    &.cores_5_anos {
+
+      .background_css_secoes_primeiro {
+        background-color: $cinco_cor3_A;
+      }
+
+      .content_icon_secoes_gressus {
+        background-color: $cinco_cor2_A;
+
+        .icon_gressus_secoes {
+          background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/05_secao_artista.svg");
+        }
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $cinco_cor1_A;
+      }
+
+    }
+  }
+
+  &.casa {
+
+    &.cores_2_anos {
+
+      .background_css_secoes_primeiro {
+        background-color: $dois_cor1_B;
+      }
+
+      .content_icon_secoes_gressus {
+        display: none;
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $dois_cor1_A;
+      }
+    }
+
+
+    &.cores_3_anos {
+
+      .background_css_secoes_primeiro {
+        background-color: $tres_cor1_B;
+      }
+
+      .content_icon_secoes_gressus {
+        display: none;
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $tres_cor1_A;
+      }
+    }
+
+
+
+    &.cores_4_anos {
+
+      .background_css_secoes_primeiro {
+        background-color: $quatro_cor1_B;
+      }
+
+      .content_icon_secoes_gressus {
+        display: none;
+      }
+
+      .content_titulo_secoes_gressus {
+        background-color: $quatro_cor1_A;
+      }
+    }
+
+
+    &.cores_5_anos {
+      .background_css_secoes_primeiro {
+        background-color: $cinco_cor1_B;
+      }
+
+      .content_icon_secoes_gressus {
+        display: none;
+      }
+
+
+      .content_titulo_secoes_gressus {
+        background-color: $cinco_cor1_A;
+      }
+
+    }
+  }
+
+  @media only screen and (max-width: $phone-max-width) {
+
+    .background_css_secoes_primeiro {
+      padding: 0px 20px;
+    }
+    .content_titulo_secoes_gressus .title_titulo_secoes_gressus {
+      font-size: 28px;
+  
+    }
+    .content_icon_secoes_gressus{
+      padding: 0 5px;
+    }
+    .content_icon_secoes_gressus .icon_gressus_secoes {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  @media only screen and (min-width: $phone-max-width) and (max-width: 769px){
+    .background_css_secoes_primeiro {
+      padding: 0px 20px;
+    }
+    .content_titulo_secoes_gressus .title_titulo_secoes_gressus {
+      font-size: 28px;
+  
+    }
+    .content_icon_secoes_gressus{
+      padding: 0 5px;
+    }
+    .content_icon_secoes_gressus .icon_gressus_secoes {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
