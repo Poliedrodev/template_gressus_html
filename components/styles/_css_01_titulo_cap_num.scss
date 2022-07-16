@@ -8,7 +8,7 @@
 
 
   .background_css_01_titulo_cap_num_v2 {
-    width: 17.625rem;
+    width: 9.6875rem;
     background-color: $dois_cor3_A;
   }
 
@@ -27,7 +27,8 @@
       font-weight: 700;
       color: #FFFFFF;
       line-height: 1;
-      font-size: 36px;
+      padding-top: 12px;
+      font-size: 30px;
     }
 
     // number
@@ -44,7 +45,7 @@
 
   // title
   .content_titulo_cap_num_v2 {
-    width: 100%;
+    width: 81%;
     background-color: $dois_cor1_A;
     padding-left: 1.4375rem;
     display: flex;
@@ -123,13 +124,15 @@
 }
 
 @media only screen and (max-width: $phone-max-width) {
-  .background_css_01_titulo_cap_num_v2{
+  .css_01_titulo_cap_num .background_css_01_titulo_cap_num_v2  {
+    width: 0.6875rem;
     padding: 0 30px;
   }
+
   .css_01_titulo_cap_num {
 
     .content_number_titulo_cap_num_v2 .cap_titulo_cap_num_v2 {
-      font-size: 20px ;
+      font-size: 20px;
       padding-top: 5px;
 
     }
@@ -140,13 +143,14 @@
     }
 
     .content_titulo_cap_num_v2 .title_titulo_cap_num_v2 {
-      font-size: 28px;
+      font-size: 22px;
     }
   }
-  
+
 }
-@media only screen and (min-width: $phone-max-width) and (max-width: 769px){
-  
+
+@media only screen and (min-width: $phone-max-width) and (max-width: 769px) {
+
   .css_01_titulo_cap_num {
 
     .content_number_titulo_cap_num_v2 .cap_titulo_cap_num_v2 {

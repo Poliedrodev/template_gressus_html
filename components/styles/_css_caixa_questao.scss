@@ -123,3 +123,11 @@
     }
   }
 }
+@media only screen and (max-width: $phone-max-width) {
+  .css_caixa_questao .wrap_icons_css_caixa_questao{
+    height: 30px;
+  }
+  .css_caixa_questao .wrap_icons_css_caixa_questao .icon_caixa_questao{
+    width: 30px;
+  }
+}
