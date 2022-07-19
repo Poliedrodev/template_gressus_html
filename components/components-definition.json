@@ -17,6 +17,7 @@
       "icon": "icons/components/container.svg",
       "label": "Boxe 06 Ícone",
       "properties": [
+        "style_boxe_06",
         "style_boxe",
         "style_anos"
       ],
@@ -1822,7 +1823,6 @@
       "icon": "icons/components/icon_06_boxe_texto1.svg",
       "label": "06 Boxe Texto 1",
       "properties": [
-        "style",
         "text-align",
         "letter-spacing",
         "line-height"
@@ -1886,7 +1886,7 @@
       "icon": "icons/components/icon_06_boxe_titulo1.svg",
       "label": "06 Boxe Título 1",
       "properties": [
-        "style",
+        "style_anos",
         "text-align",
         "letter-spacing",
         "line-height"
@@ -3596,14 +3596,6 @@
       ]
     },
     {
-      "label": "Containers",
-      "name": "containers",
-      "components": [
-        "background"
-    
-      ]
-    },
-    {
       "label": "Lingua_Inglesa",
       "name": "lingua_inglesa",
       "components": [
@@ -3843,6 +3835,7 @@
       },
       "name": "layout",
       "components": [
+        "background",
         "container",
         "container_nivel1",
         "container_nivel2",
@@ -3854,6 +3847,30 @@
     }
   ],
   "componentProperties": [
+    {
+      "name": "style_boxe_06",
+      "label": "Remover Container e Legenda",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "Adicionar"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Remover"
+              }
+            },
+            "value": "_remove_main_and_footer"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
     {
       "name": "style_image_fit_content",
       "label": "Ajustar tamanho da imagem",

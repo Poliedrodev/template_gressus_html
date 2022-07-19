@@ -86,6 +86,16 @@
     }
   }
 
+  &._remove_main_and_footer{
+    border-radius: 8px 8px 0;
+    .header_css_06_boxe{
+      border: none !important;
+    }
+    .main_css_06_boxe, .footer_css_06_boxe{
+      display: none !important;
+    }
+  }
+
   &.cores_2_anos {
     border: 1px solid $dois_cor1_A;
 
@@ -100,7 +110,7 @@
         border-bottom: 1px solid $dois_cor1_A;
       }
 
-     
+
     }
 
     // title
@@ -125,7 +135,7 @@
         border-bottom: 1px solid $tres_cor1_A;
       }
 
-      
+
     }
 
     // title
@@ -150,7 +160,7 @@
         border-bottom: 1px solid $quatro_cor1_A;
       }
 
-     
+
     }
 
     // title
@@ -175,7 +185,7 @@
         border-bottom: 1px solid $cinco_cor1_A;
       }
 
-     
+
     }
 
     // title
@@ -221,44 +231,41 @@
   }
 
 
-  // faltando ícone 1
   // família e escola
   &._familia_e_escola.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/02_boxe_familia.svg");
   }
 
   &._familia_e_escola.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/03_boxe_familia.svg");
   }
 
   &._familia_e_escola.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/04_boxe_familia.svg");
   }
 
   &._familia_e_escola.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/05_boxe_familia.svg");
   }
 
-  // faltando ícone 2
   // comunidade em ação!
   &._comunidade_em_acao.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/02_boxe_comunidade.svg");
   }
 
   &._comunidade_em_acao.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/03_boxe_comunidade.svg");
   }
 
   &._comunidade_em_acao.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/04_boxe_comunidade.svg");
   }
 
   &._comunidade_em_acao.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_pesquisa.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/05_boxe_comunidade.svg");
   }
 
-  
-  // hora da história
+
   &._hora_da_historia.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_historia.svg");
   }
@@ -275,25 +282,23 @@
     background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_historia.svg");
   }
 
-  // faltando ícone 3
-  // palavras estáveis
   &._palavras_estaveis.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_historia.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/02_boxe_palavras.svg");
   }
 
   &._palavras_estaveis.cores_3_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_boxe_historia.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/03_boxe_palavras.svg");
   }
 
   &._palavras_estaveis.cores_4_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_boxe_historia.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/04_boxe_palavras.svg");
   }
 
   &._palavras_estaveis.cores_5_anos .header_css_06_boxe .icon_css_06_boxe {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_historia.svg");
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/05_boxe_palavras.svg");
   }
 
-  // as palavras e o texto 
+  // 
   &._as_palavras_e_o_texto.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_texto.svg");
   }
@@ -310,7 +315,7 @@
     background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_texto.svg");
   }
 
-  // mão NA MASSA 
+  // 
   &._mao_NA_MASSA.cores_2_anos .header_css_06_boxe .icon_css_06_boxe {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_boxe_mao.svg");
   }
@@ -327,18 +332,22 @@
     background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_boxe_mao.svg");
   }
 }
+
 @media only screen and (max-width: $phone-max-width) {
   .css_06_boxe .background_css_06_boxe .title_css_06_boxe {
     font-size: 14px;
   }
+
   .css_06_boxe .background_css_06_boxe {
     padding-left: 65px;
   }
 }
+
 @media only screen and (max-width: 361px) {
-  .css_06_boxe .header_css_06_boxe .background_icon_css_06_boxe{
+  .css_06_boxe .header_css_06_boxe .background_icon_css_06_boxe {
     width: 48px;
   }
+
   .css_06_boxe .background_css_06_boxe {
     padding-left: 53px;
   }
