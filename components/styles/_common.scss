@@ -246,6 +246,14 @@ h3 {
 @import url(https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Condensed:wght@300;400;700&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
 
+@font-face {
+  font-family: 'MathSymbol_JSD';
+  src: url("https://pmaislivrodigitalprd.blob.core.windows.net/assets/MathSymbol_JSD-Regular.otf?22t19m") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 // margin final
 // .body-book :last-child :last-child {
 //   margin-bottom: 6px;
