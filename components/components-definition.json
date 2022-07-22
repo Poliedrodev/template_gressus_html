@@ -5,6 +5,13 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "dig_box_01",
+      "icon": "icons/components/container.svg",
+      "label": "Dig Box 01",
+      "allowNesting": "yes",
+      "properties": []
+    },
+    {
       "name": "css_caixa_questao",
       "icon": "icons/components/container.svg",
       "label": "Caixa Questão",
@@ -3703,6 +3710,7 @@
       "label": "06 boxes",
       "name": "06_boxes",
       "components": [
+        "dig_box_01",
         "css_caixa_questao",
         "css_06_boxe",
         "css_06_box_destaque",
