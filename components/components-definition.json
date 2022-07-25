@@ -4541,6 +4541,10 @@
             "caption": "Padrão"
           },
           {
+            "caption": "background padrao",
+            "value": "_background_padrao"
+          },
+          {
             "caption": "background artista",
             "value": "_background_artista"
           },
@@ -4548,17 +4552,10 @@
             "caption": "background comecar",
             "value": "_background_comecar"
           },
+          
           {
-            "caption": "background padrao",
-            "value": "_background_padrao"
-          },
-          {
-            "caption": "background terminar",
-            "value": "_background_terminar"
-          },
-          {
-            "caption": "background casa",
-            "value": "_background_casa"
+            "caption": "background terminar casa",
+            "value": "_background_terminar_casa"
           }
         ]
       },

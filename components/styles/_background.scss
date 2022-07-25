@@ -1,89 +1,71 @@
 .body-book {
-  background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_padrao.svg');
-  
+
   // background padrao
   &._background_padrao.cores_2_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_padrao.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/02_background_padrao.svg');
   }
 
   &._background_padrao.cores_3_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_padrao.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/03_background_padrao.svg');
   }
 
   &._background_padrao.cores_4_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/Gressus4_components_02_background_padrao.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/04_background_padrao.svg');
   }
 
   &._background_padrao.cores_5_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_padrao.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/05_background_padrao.svg');
   }
 
   // background artista
   &._background_artista.cores_2_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_artista.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/02_background_artista.svg');
   }
 
   &._background_artista.cores_3_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_artista.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/03_background_artista.svg');
   }
 
   &._background_artista.cores_4_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/Gressus4_components_02_background_artista.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/04_background_artista.svg');
   }
 
   &._background_artista.cores_5_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_artista.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/05_background_artista.svg');
   }
-  
+
   // background_comecar
   &._background_comecar.cores_2_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_comecar.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/02_background_comecar.svg');
   }
 
   &._background_comecar.cores_3_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_comecar.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/03_background_comecar.svg');
   }
 
   &._background_comecar.cores_4_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_background_comecar.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/04_background_comecar.svg');
   }
 
   &._background_comecar.cores_5_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_comecar.svg");
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/05_background_comecar.svg');
   }
 
-  // background_terminar
-  &._background_terminar.cores_2_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_terminar.svg");
+  // background_terminar_casa
+  &._background_terminar_casa.cores_2_anos {
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/02_background_terminar-casa.svg');
   }
 
-  &._background_terminar.cores_3_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_terminar.svg");
+  &._background_terminar_casa.cores_3_anos {
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/03_background_terminar-casa.svg');
   }
 
-  &._background_terminar.cores_4_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/04_background_terminar.svg");
+  &._background_terminar_casa.cores_4_anos {
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/04_background_terminar-casa.svg');
   }
 
-  &._background_terminar.cores_5_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_terminar.svg");
-  }
-
-  // background_terminar
-  &._background_casa.cores_2_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-2/02_background_casa.svg");
-  }
-
-  &._background_casa.cores_3_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-3/03_background_casa.svg");
-  }
-
-  &._background_casa.cores_4_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-4/Gressus4_components_02_background_casa.svg");
-  }
-
-  &._background_casa.cores_5_anos {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/gressus/gressus-5/05_background_casa.svg");
+  &._background_terminar_casa.cores_5_anos {
+    background-image: url('https://livro-digital.p4ed.com/assets/icons/gressus/05_background_terminar-casa.svg');
   }
 
   &.edit-mode {
